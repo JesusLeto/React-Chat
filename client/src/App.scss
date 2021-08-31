@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.RegisterPage{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        width: 400px;
+        height: 30px;
+        font-size: 24px;
+        margin: 10px;
+    }
+    &--Btn{
+        width: 120px;
+        height: 30px;
+    }
+    border: 1px solid grey
+}
